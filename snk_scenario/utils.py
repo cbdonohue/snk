@@ -19,7 +19,7 @@ def readlines(filename):
 def readtles(filename):
     lines = readlines(filename)
     length = len(lines)
-    assert(length%3==1,"err")
+    assert length%3==1, "err"
 
 
     reformat_lines=[]

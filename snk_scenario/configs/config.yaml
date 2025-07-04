@@ -11,8 +11,8 @@
 
 
 
-root: "/home/roit/aws/aprojects/snk_scenario-rls"
-dump_path: "/home/roit/datasets/cesiumData/new"
+root: "."
+dump_path: "./output"
 
 
 start_time: "2000-01-01T00:00:00"

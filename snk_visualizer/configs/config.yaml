@@ -1,5 +1,5 @@
 
-base: "../data/new/"
+base: "../data/"
 
 
 DEBUG_MODE: "normal"

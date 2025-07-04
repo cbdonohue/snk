@@ -35,7 +35,7 @@ from datetime import date, datetime
 
 import dateutil.parser
 from pygeoif import geometry
-from pygeoif.geometry import as_shape as asShape
+from pygeoif import shape as asShape
 from pytz import utc
 
 try:

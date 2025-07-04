@@ -1,11 +1,11 @@
 # run.sh
 
+# Add current directory to Python path
+export PYTHONPATH="${PYTHONPATH}:."
 
 configs=(
 
-
 "./configs/config.yaml"
-
 
 )
 for config_path in  "${configs[@]}";do

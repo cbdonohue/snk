@@ -1,0 +1,181 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Node.js (if any)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Generated data and outputs
+snk_scenario/output/
+snk_visualizer/data/
+*.czml
+*.tle
+lump.json
+
+# Large libraries (CesiumJS) - Complete exclusion
+snk_visualizer/Cesium/
+snk_visualizer/Build/
+snk_visualizer/Source/
+snk_visualizer/Specs/
+snk_visualizer/ThirdParty/
+snk_visualizer/packages/
+snk_visualizer/Apps/CesiumViewer/
+snk_visualizer/Apps/SampleData/
+snk_visualizer/Apps/Sandcastle/
+snk_visualizer/Apps/TimelineDemo/
+snk_visualizer/Apps/HelloWorld.html
+*.zip
+
+# CesiumJS extracted files
+snk_visualizer/CHANGES.md
+snk_visualizer/LICENSE.md
+snk_visualizer/README.md
+snk_visualizer/build.js
+snk_visualizer/gulpfile.js
+snk_visualizer/server.js
+snk_visualizer/index.cjs
+snk_visualizer/index.html
+snk_visualizer/package.json
+snk_visualizer/web.config
+snk_visualizer/favicon.ico
+snk_visualizer/.eslintignore
+snk_visualizer/.eslintrc.json
+snk_visualizer/.prettierignore
+
+# 3D model files and textures
+*.b3dm
+*.glb
+*.gltf
+*.ktx2
+*.basis
+*.crn
+*.dds
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Documentation build
+docs/_build/
+site/
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# Config files with sensitive data
+**/config/**/secret*
+**/config/**/private*
+*.key
+*.pem
+
+# Large datasets and media files
+*.csv
+*.h5
+*.hdf5
+*.parquet
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.mat
+
+# Backup files
+*.bak
+*.backup
+*~ 
