@@ -79,7 +79,6 @@ def remove_random_items(lst, num_to_remove=None):
     return lst
 
 def ISLs(cfg_path):
-    global positions
     yml = YamlHandler(cfg_path)
     config = yml.read_yaml()
     dump_path = Path(config["dump_path"])

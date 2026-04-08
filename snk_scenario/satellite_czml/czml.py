@@ -599,7 +599,7 @@ class Scale(_DateTimeAware):
         elements, they are time-tagged samples arranged as
         [Time, Value, Time, Value, ...], where Time is an ISO 8601 date
         and time string or seconds since epoch."""
-        if isinstance(self._number, alist):
+        if isinstance(self._number, list):
             val = []
             for d in grouper(self._number, 2):
                 if isinstance(d[0], (int, long, float)):
@@ -1540,7 +1540,7 @@ class CZMLPacket(_CZMLBaseObject):
             self._orientation = orientation
         elif isinstance(orientation, dict):
             p = Orientation()
-            p.load(point)
+            p.load(orientation)
             self._orientation = p
         elif orientation is None:
             self._orientation = None

@@ -40,7 +40,7 @@ class sNet:
     def diff_inter_intral(self,sat1, sat2):
         _,shell_num1,orb_num1,phase_num1 = paser_entId(sat1)
         _,shell_num2,orb_num2,phase_num2 = paser_entId(sat2)
-        assert (shell_num1==shell_num2,"functions 'diff_intral_inter' only works in the same shell!")
+        assert shell_num1==shell_num2, "functions 'diff_intral_inter' only works in the same shell!"
         num_sat = self.cfg[self.layer_names[shell_num1]]['num_sat']
         num_orbit = self.cfg[self.layer_names[shell_num2]]['num_orbit']
         circuit = self.cfg[self.layer_names[shell_num1]]['circuit']
